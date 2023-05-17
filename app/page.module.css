@@ -1,0 +1,19 @@
+.pageWrapper {
+  max-width: 1248px;
+}
+
+.logotype {
+  font-family: "Arial";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 35px;
+  color: #000000;
+}
+
+nav li a.isActive {
+  border-bottom: 2px solid #e16259;
+}
+
+.topNav ul {
+  @apply m-0 p-0 list-none;
+}

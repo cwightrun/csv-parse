@@ -1,0 +1,27 @@
+.listing {
+  display: grid;
+}
+
+.listingItem > div {
+  padding: 12px 16px;
+  color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+}
+
+.listingItem p {
+  padding-bottom: 4px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.listingItem h3 {
+  padding-bottom: 8px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 135%;
+}
+
+.listingItem a {
+  color: #e16259;
+}

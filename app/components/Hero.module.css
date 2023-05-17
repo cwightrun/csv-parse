@@ -1,0 +1,14 @@
+.heroCopy,
+.heroMedia {
+  width: 50%;
+}
+
+.mainHeading {
+  letter-spacing: -1.85px;
+}
+
+.subHeading {
+  line-height: 145%;
+}
+
+font-size: 20px;
