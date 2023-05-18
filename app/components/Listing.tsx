@@ -23,10 +23,8 @@ export default function Listing({data}: Props) {
     
     // Filter the data based on the search input
     const filteredResults = data.filter((row: Array<string>) => 
-      row[1].toLowerCase().includes(inString)
-      || row[2].toLowerCase().includes(inString)
-      || row[3].toLowerCase().includes(inString)
-      || row[4].toLowerCase().includes(inString));
+      // Concatenate the row values and check if the search input is included
+      row.slice(1, 4).join().toLowerCase().includes(inString));
 
     // Update state to matching results
     setResults(filteredResults);

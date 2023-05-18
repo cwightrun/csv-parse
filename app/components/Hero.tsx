@@ -23,6 +23,7 @@ export default function Hero() {
             width={384}
             height={383}
             alt="Painting titled 'Wanderer above the Sea of Fog' by Caspar David Friedrich"
+            priority={true}
           />
         </div>
       </div>
