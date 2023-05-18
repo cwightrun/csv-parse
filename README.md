@@ -1,3 +1,26 @@
+# 👋 Howdy
+
+I've spun up a new instance of NextJS (13.4), and used a couple of additional packages to complete the project.
+
+Running the following will install dependencies:
+
+```bash
+npm install
+```
+
+Once the dependencies are installed, the following command will run the development server:
+
+```bash
+npm run dev
+```
+
+Let me know if you have any questions - I can be reached at [caseywight@gmail.com](mailto:caseywight@gmail.com)
+Thanks so much!
+
+---
+
+The following information is boilerplate from the `create-next-app` installation -- 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
